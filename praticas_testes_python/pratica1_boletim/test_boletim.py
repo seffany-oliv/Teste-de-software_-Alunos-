@@ -13,8 +13,16 @@ Como rodar (dentro desta pasta):   pytest -v
 # ---------------------------------------------------------------------------
 
 
-# Digitar código (Aqui)
-
+def test_media_de_duas_notas():
+    # Arrange (Preparar) dados de entrada
+    notas = [6, 8]
+    
+    # Act (agir) - Executar o teste
+    media = calcular_media(notas)
+    
+    # Assert (conferir) - Dizer qual é o resultado esperado
+    
+ 
 
 # ---------------------------------------------------------------------------
 # 2) NÚMEROS DECIMAIS — nunca compare float com "==".
